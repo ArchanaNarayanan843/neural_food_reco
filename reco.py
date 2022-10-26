@@ -85,7 +85,7 @@ history=model.fit([x_train.iloc[:,0], x_train.iloc[:,1]], y_train, batch_size=64
 
 
 
-st.title('Food Recommender System')
+st.title('NCF Food Recommender System')
 
 selected_item_name=st.selectbox(
 'Your name...',user['user_name'].values)
